@@ -1,8 +1,13 @@
 # ImageAIGeneratorPython
-# PolyGenix
 
 PolyGenix is a desktop AI-powered idea and image generation tool built with Tkinter.  
 It generates creative 3D-printable design prompts and automatically produces AI-generated preview images.
+
+---
+
+## 🖼️ Application Preview
+
+<img width="542" height="872" alt="Print Screen" src="https://github.com/user-attachments/assets/e1a818b7-f0f3-43b0-b2bc-6e987cb5afd8" />
 
 ---
 
