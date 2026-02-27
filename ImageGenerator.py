@@ -130,10 +130,10 @@ subTitle.place(x = 110, y = 89)
 # Radiobutton:
 rb = StringVar(value = "choices")
 
-rad1 = ttk.Radiobutton(window,text = "Short [5 variants]", value = "Choice5", variable = rb)
+rad1 = ttk.Radiobutton(window,text = "Short [2 variants]", value = "Choice5", variable = rb)
 rad1.place(x = 110, y = 135)
 
-rad2 = ttk.Radiobutton(window, text = "Extended [15 variants]", value = "Choice15", variable = rb)
+rad2 = ttk.Radiobutton(window, text = "Extended [3 variants]", value = "Choice15", variable = rb)
 rad2.place(x = 260, y = 135)
 
 text_widget = ttk.Entry(window, width = 35, font = ("Segue UI", 15))
@@ -147,5 +147,6 @@ preview_button.place(x = 50, y = 290, height = 40, width = 140)
 
 image_label = ttk.Label(window)
 image_label.place(x = 50, y = 330, height = 400, width = 400)
+
 
 window.mainloop()
